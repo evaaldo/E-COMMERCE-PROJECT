@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 2em 10em;
+    border-bottom: 1px solid var(--cinza-claro);
 }
 
 .cabecalho__menu {
@@ -19,7 +20,6 @@
     display: flex;
     list-style: none;
     gap: 1.5em;
-    opacity: .8;
 }
 
 .cabecalho__item-link {

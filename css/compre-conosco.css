@@ -1,0 +1,96 @@
+.compre-conosco {
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    gap: 7em;
+}
+
+.foto {
+    width: 400px;
+    border-radius: 15px;
+}
+
+.compre-conosco__subfoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: .5em 0;
+}
+
+.subfoto {
+    width: 80px;
+    border-radius: 15px;
+}
+
+.compre-conosco__descricao {
+    padding-top: 3em;
+    width: 400px;
+}
+
+.love-photos {
+    color: var(--azul);
+}
+
+.compre-conosco__titulo {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.compre-conosco__texto {
+    padding: 2em 0;
+}
+
+.compre-conosco__preco {
+    font-weight: 700;
+    font-size: 1.5em;
+    color: var(--verde);
+}
+
+.compre-conosco__compras {
+    padding: 2em 0;
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
+.compre-conosco__quantidade {
+    display: flex;
+    align-items: center;
+    padding: 1em 0;
+    gap: 1em;
+}
+
+.plus-minus {
+    padding: .3em 1em;
+    background-color: var(--cinza-botao);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.fa-plus,
+.fa-minus {
+    color: var(--preto);
+}
+
+.compre-conosco__adicionar {
+    cursor: pointer;
+    padding: 1.3em 2em;
+    font-weight: 700;
+    color: var(--branco);
+    background-color: var(--azul);
+    border: none;
+    border-radius: 10px;
+}
+
+.swiper-button-prev {
+    margin-left: 7em;
+}
+
+.swiper-button-next {
+    margin-right: 7em;
+}
+
+
+
