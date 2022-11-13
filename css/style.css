@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url(/css/header.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+-root {
+    --branco: #fff;
+    --preto: #000;
+    --cinza: #B2B2B2;
+}

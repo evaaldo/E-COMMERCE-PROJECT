@@ -1,0 +1,40 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 10em;
+}
+
+.cabecalho__menu {
+    display: flex;
+    align-items: center;
+    gap: 4em;
+}
+
+.cabecalho__titulo {
+    font-weight: 700;
+}
+
+.cabecalho__lista {
+    display: flex;
+    list-style: none;
+    gap: 1.5em;
+    opacity: .8;
+}
+
+.cabecalho__item-link {
+    text-decoration: none;
+    color: var(--cinza);
+    font-weight: 500;
+}
+
+.cabecalho__icones {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.cabecalho__clicaveis {
+    color: var(--cinza);
+    font-weight: 500;
+}
