@@ -8,8 +8,8 @@
 .entrega {
     margin-top: 5.2em;
     align-items: center;
-    border: 1px solid var(--cinza);
     border-radius: 20px;
+    box-shadow: -3px 3px 10px var(--cinza);
     width: 500px;
     display: flex;
     padding: 1em;
