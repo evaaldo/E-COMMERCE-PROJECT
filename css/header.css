@@ -26,6 +26,11 @@
     text-decoration: none;
     color: var(--cinza);
     font-weight: 500;
+    transition: .8s all;
+}
+
+.cabecalho__item-link:hover {
+    color: var(--preto);
 }
 
 .cabecalho__icones {
