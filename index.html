@@ -12,6 +12,7 @@
     <script src="https://kit.fontawesome.com/88cbac72fc.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
     <script src="/js/swiper.js" defer></script>
+    <script src="/js/plus-minus.js" defer></script>
 </head>
 <body>
     <header class="cabecalho">
@@ -20,8 +21,8 @@
             <ul class="cabecalho__lista">
                 <li class="cabecalho__item"><a href="#compre-conosco" class="cabecalho__item-link">Compre conosco</a></li>
                 <li class="cabecalho__item"><a href="#" class="cabecalho__item-link">Entrega</a></li>
-                <li class="cabecalho__item"><a href="#" class="cabecalho__item-link">Sobre</a></li>
                 <li class="cabecalho__item"><a href="#" class="cabecalho__item-link">Redes sociais</a></li>
+                <li class="cabecalho__item"><a href="#" class="cabecalho__item-link">Sobre</a></li>
                 <li class="cabecalho__item"><a href="#" class="cabecalho__item-link">Contato</a></li>
             </ul>
         </div>
@@ -30,8 +31,7 @@
             <a href="#" class="cabecalho__clicaveis"><i class="fa-solid fa-magnifying-glass"></i></a>
         </div>
     </header>
-
-    <div class="swiper">
+    <section class="swiper">
         <div class="swiper-wrapper">
         <div class="swiper-slide">
             <div id="compre-conosco" class="compre-conosco">
@@ -106,7 +106,7 @@
                 </div>
                 <div class="compre-conosco__descricao">
                     <h4 class="love-photos">Love Photos</h4>
-                    <h1 class="compre-conosco__titulo">Polaroid de mesar</h1>
+                    <h1 class="compre-conosco__titulo">Polaroid de mesa</h1>
                     <p class="compre-conosco__texto">Polaroid de mesa spotify. A polaroid de mesa com uma foto da escolha do cliente e o QR code do spotify para redirecionar à uma música desejada.</p>
                     <p class="compre-conosco__preco">R$ 39.90</p>
                     <div class="compre-conosco__compras">
@@ -121,9 +121,31 @@
             </div>
         </div>
         </div>
-        <div class="swiper-pagination"></div>
         <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>            
-    </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <section class="entrega-redes">
+        <div class="entrega">
+            <div class="entrega__textos">
+                <h1 class="entrega__titulo">Entregas</h1>
+                <p class="entrega__texto">Nós fazemos a entrega para todos os bairros de fortaleza por <strong>R$ 12,00.</strong> Região metropolitana a ser acertado.</p>
+            </div>
+            <div class="entrega__icone">
+                <i class="fa-solid fa-truck"></i>
+            </div>
+        </div>
+        <div class="redes">
+            <div class="entrega">
+                <div class="entrega__textos">
+                    <h1 class="entrega__titulo">Redes sociais</h1>
+                    <p class="entrega__texto">Nossa principal rede social, a qual divulgamos todos nossos trabalhos e conversamos com os clientes é o <a href="https://www.instagram.com/lovephotooficial/" class="instagram">instagram</a></p>
+                </div>
+                <div class="entrega__icone">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
