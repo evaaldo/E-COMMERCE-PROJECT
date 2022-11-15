@@ -1,0 +1,1 @@
+const sidebar = document.querySelector('[data-side-bar]')
