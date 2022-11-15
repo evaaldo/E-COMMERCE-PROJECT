@@ -40,6 +40,10 @@
 }
 
 .cabecalho__clicaveis {
+    font-size: 1.1em;
     color: var(--cinza);
     font-weight: 500;
+    background-color: var(--branco);
+    border: none;
+    cursor: pointer;
 }

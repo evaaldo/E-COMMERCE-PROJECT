@@ -13,6 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
     <script src="/js/swiper.js" defer></script>
     <script src="/js/plus-minus.js" defer></script>
+    <script src="/js/search-bar.js" defer></script>
 </head>
 <body>
     <header class="cabecalho">
@@ -27,11 +28,25 @@
             </ul>
         </div>
         <div class="cabecalho__icones">
-            <a href="#" class="cabecalho__clicaveis"><i class="fa-solid fa-cart-shopping"></i></a>
-            <a href="#" class="cabecalho__clicaveis"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <button class="cabecalho__clicaveis"><i class="fa-solid fa-cart-shopping"></i></button>
+            <button class="cabecalho__clicaveis" data-lupa><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
     </header>
     <section class="swiper">
+        <div data-pesquisa class="barra-pesquisa">
+            <input class="text" type="text" placeholder="O que deseja buscar?">
+            <div class="cards">
+                
+            </div>
+            <template>
+                <div class="card">
+                    <div class="card__produto"><a class="card__produto-link" href="#">Polaroid</a></div>
+                    <div class="card__produto"><a class="card__produto-link" href="#">Polaroid</a></div>
+                    <div class="card__produto"><a class="card__produto-link" href="#">Polaroid</a></div>
+                    <div class="card__produto"><a class="card__produto-link" href="#">Polaroid</a></div>
+                </div>
+            </template>
+        </div>
         <div class="swiper-wrapper">
         <div class="swiper-slide">
             <div id="compre-conosco" class="compre-conosco">
@@ -125,7 +140,7 @@
         <div class="swiper-button-next"></div>
         <div class="swiper-pagination"></div>
     </section>
-    <section id="entrega-redes" class="entrega-redes">
+    <section id="entrega-redes                          w r" class="entrega-redes">
         <div class="entrega">
             <div class="entrega__textos">
                 <h1 class="entrega__titulo">Entregas</h1>

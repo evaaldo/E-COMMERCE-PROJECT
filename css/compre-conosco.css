@@ -92,5 +92,46 @@
     margin-right: 7em;
 }
 
+.barra-pesquisa {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    width: 40%;
+    margin: 1em;
+    padding: .5em;
+    border-radius: 25px;
+}
+
+.text::placeholder {
+    padding-left: 1em;
+}
+
+.card {
+    text-align: center;
+    padding: .5em;
+    width: 500px;
+    border-left: 1px solid var(--cinza);
+    border-right: 1px solid var(--cinza);
+    border-radius: 2px;
+}
+
+.card__produto {
+    font-weight: 700;
+    padding: .5em;
+}
+
+.card__produto:hover {
+    background-color: var(--cinza-branco);
+}
+
+.card__produto-link {
+    text-decoration: none;
+    color: var(--preto);
+}
+
 
 
