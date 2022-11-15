@@ -1,0 +1,35 @@
+.contato {
+    border-top: 1px solid var(--cinza-claro);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.contato__textos,
+.contato__fone {
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em 0;
+}
+
+.contato__titulo-2 {
+    margin-top: 1.5em;
+}
+
+.contato__texto {
+    padding-top: 1em;
+}
+
+.contato__numero {
+    padding: 1em 0;
+}
+
+.contato__link {
+    color: var(--preto);
+    font-weight: 700;
+}
