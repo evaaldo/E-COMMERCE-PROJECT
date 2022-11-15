@@ -133,5 +133,13 @@
     color: var(--preto);
 }
 
+@media screen and (max-width: 1024px) {
+
+    .compre-conosco {
+        margin-top: 1em;
+    }
+
+}
+
 
 

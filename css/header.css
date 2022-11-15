@@ -64,6 +64,7 @@
         justify-content: space-around;
         align-items: center;
         padding: 1em;
+        border-bottom: 1px solid var(--cinza-claro);
     }
 
     .cabecalho__mobile-principal {
@@ -71,7 +72,6 @@
         justify-content: space-around;
         gap: 3.5em;
         padding-bottom: 1em;
-        border-bottom: 1px solid var(--cinza-claro);
     }
 
     .cabecalho__item-link:active {
@@ -92,13 +92,16 @@
 
     .cabecalho__mobile-categorias {
         margin-top: 1em;
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: .5em;
         list-style: none;
-        
+    }
+
+    .cabecalho__item {
+        font-size: 1.2em;
     }
 
 }
