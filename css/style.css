@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 @import url(/css/header.css);
 @import url(/css/compre-conosco.css);
 @import url(/css/entrega.css);
@@ -7,7 +8,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 :root {
