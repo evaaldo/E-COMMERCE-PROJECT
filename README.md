@@ -16,3 +16,5 @@
 <p><strong>✦ Como acessar:</strong> Para ter acesso, basta clicar no link do deploy: https://e-commerce-project-opal.vercel.app/</p>
 
 <h3>Some project images</h3>
+
+<img src="![tela-1](https://user-images.githubusercontent.com/110418142/202295419-dc7974df-4e96-45fd-8d17-670f6df5d029.png)">
