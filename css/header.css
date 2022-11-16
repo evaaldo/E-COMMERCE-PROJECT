@@ -86,7 +86,7 @@
     }
 
     .cabecalho__botao {
-        background-color: none;
+        background-color: var(--branco);
         border: none;
         font-size: 1.5em;
     }
