@@ -133,10 +133,57 @@
     color: var(--preto);
 }
 
+.swiper-slide-mobile {
+    display: none;
+}
+
+.mobile-button-swiper {
+    display: none;
+}
+
 @media screen and (max-width: 1024px) {
 
+    .mobile-button-swiper {
+        display: block;
+    }
+
+    .desktop-button-swiper {
+        display: none;
+    }
+
+    .swiper-slide {
+        display: none;
+    }
+
+    .swiper-slide-mobile {
+        display: block;
+    }
+
     .compre-conosco {
+        display: flex;
+        flex-direction: column;
         margin-top: 1em;
+    }
+
+    .foto {
+        width: 300px;
+    }
+
+    .compre-conosco__visualizacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .compre-conosco__subfoto {
+        display: flex;
+    }
+
+    .compre-conosco__descricao {
+        text-align: center;
+        margin: 0;
     }
 
 }
