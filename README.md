@@ -1,4 +1,5 @@
 <h1>Love Photos Project</h1>
+<h3>On building - Em construção</h3>
 
 <p><strong>✦ Summary:</strong> This project boils down to the creation of the local e-commerce site where I live. The purpose of the website is to show the products available in the store, their price, how the store services work and also helping the user to have a faster purchase.</p>
 
