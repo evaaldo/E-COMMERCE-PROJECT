@@ -46,4 +46,41 @@
     color: var(--preto);
 }
 
+@media screen and (max-width: 1024px) {
+
+    .entrega-redes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .entrega {  
+        margin-top: 1.2em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+
+    .entrega__textos {
+        padding: 0;
+    }
+    
+    .entrega__titulo {
+        padding: .5em;
+    }
+    
+    .entrega__texto {
+        padding-bottom: 1em;
+    }
+    
+    .entrega__icone {
+        padding-bottom: 1em;
+   }
+
+}
+
 

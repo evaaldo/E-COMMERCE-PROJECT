@@ -221,6 +221,10 @@
         margin: 0;
     }
 
+    .swiper-slide {
+        margin-bottom: 1em;
+    }
+
 }
 
 
