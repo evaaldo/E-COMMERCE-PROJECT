@@ -33,3 +33,27 @@
     color: var(--preto);
     font-weight: 700;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contato__titulo {
+        padding: 1em 0 1em 0;
+    }
+
+    .contato__texto {
+        padding: 0 3em;
+    }
+
+    .contato__titulo-2 {
+        padding: 0;
+        margin-top: .5em;
+    }
+
+}
+
+
