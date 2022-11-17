@@ -143,6 +143,10 @@
     text-align: center;
 }
 
+.swiper-slide {
+    margin-bottom: 5em;
+}
+
 
 @media screen and (max-width: 1024px) {
 
