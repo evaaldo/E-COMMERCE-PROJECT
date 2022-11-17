@@ -12,7 +12,7 @@
 
 <p><strong>✦ Resumo:</strong> Esse projeto se resume na criação do site do e-commerce local de onde eu moro. O site tem por finalidade mostrar os produtos disponíveis na loja, o preço deles, como funcionam os serviços da loja e também ajudando o usuário a ter uma compra mais rápida.</p>
 
-<p><strong>✦ How to use:</strong> O código do site está dividido dentro de pastas bem intuitivas. Por exemplo, todos os arquivos CSS de cada uma das sections do site está dentro da pasta css. O mesmo serve para o javascript e as imagens. O HTML do site é o único arquivo que está fora de uma pasta. Todo o arquivo CSS está linkado ao css/style.css.</p>
+<p><strong>✦ Como usar:</strong> O código do site está dividido dentro de pastas bem intuitivas. Por exemplo, todos os arquivos CSS de cada uma das sections do site está dentro da pasta css. O mesmo serve para o javascript e as imagens. O HTML do site é o único arquivo que está fora de uma pasta. Todo o arquivo CSS está linkado ao css/style.css.</p>
 
 <p><strong>✦ Como acessar:</strong> Para ter acesso, basta clicar no link do deploy: https://e-commerce-project-opal.vercel.app/</p>
 
