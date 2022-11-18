@@ -4,13 +4,15 @@ const modal = document.querySelector('[data-modal]')
 const fade = document.querySelector('[data-fade]')
 
 const toggleModal = () => {
-    modal.classList.toggle('hide')
-    fade.classList.toggle('hide')
+
+    modal.classList.toggle('hides')
+    fade.classList.toggle('hides')
+
 }
 
 [openModal, closeModal, fade].forEach((el) => {
 
-    el.addEventListenner('click', () => toggleModal())
+    el.addEventListener('click', () => toggleModal())
 
 })
 

@@ -105,6 +105,10 @@
         font-size: 1.2em;
     }
 
+    .last-item {
+        padding-bottom: .7em;
+    }
+
 }
 
 
