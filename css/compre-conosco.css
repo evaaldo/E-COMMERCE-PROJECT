@@ -147,6 +147,18 @@
     margin-bottom: 5em;
 }
 
+input[type="number"] {
+    -moz-appearance: textfield;
+    text-align: center;
+    border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 
 @media screen and (max-width: 1024px) {
 
