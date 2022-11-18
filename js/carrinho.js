@@ -5,9 +5,7 @@ const fade = document.querySelector('[data-fade]')
 
 const toggleModal = () => {
 
-    modal.classList.toggle('hides')
-    fade.classList.toggle('hides')
-
+    [modal, fade].forEach((el) => el.classList.toggle('hides'))
 }
 
 [openModal, closeModal, fade].forEach((el) => {

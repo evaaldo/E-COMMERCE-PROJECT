@@ -43,10 +43,25 @@
     top: 50%;
     left: 50%;
     z-index: 10;
+    width: 300px;
+    max-width: 90%;
+}
+
+.modal__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.carrinho-modal {
+    color: var(--cinza);
+    font-size: 5em;
 }
 
 .modal__titulo {
-    margin-bottom: .5em;
+    margin-bottom: 1em;
 }
 
 .modal__texto {
@@ -56,4 +71,10 @@
 .hides {
     opacity: 0;
     pointer-events: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+    
+
 }
