@@ -12,10 +12,8 @@
     <script src="https://kit.fontawesome.com/88cbac72fc.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
     <script src="/js/swiper.js" defer></script>
-    <script src="/js/plus-minus.js" defer></script>
-    <script src="/js/search-bar.js" defer></script>
-    <script src="/js/plus-minus.js" defer></script>
     <script src="/js/sidebar.js" defer></script>
+    <script src="/js/carrinho.js" defer></script>
 </head>
 <body>
     <header>
@@ -31,14 +29,14 @@
                 </ul>
             </div>
             <div class="cabecalho__icones">
-                <button class="cabecalho__clicaveis"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button data-carrinho class="cabecalho__clicaveis"><i class="fa-solid fa-cart-shopping"></i></button>
             </div>
         </div>
         <div class="cabecalho__mobile">
             <div class="cabecalho__mobile-principal">
                 <button data-side-bar class="cabecalho__bar-button"><i class="fa-solid fa-bars"></i></button>
                 <h1 class="cabecalho__titulo">Love Photos</h1>
-                <button class="cabecalho__botao"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button data-carrinho class="cabecalho__botao"><i class="fa-solid fa-cart-shopping"></i></button>
             </div>
             <ul data-lista-mobile class="cabecalho__mobile-categorias">
                 <li class="cabecalho__item"><a href="#compre-conosco" class="cabecalho__item-link">Compre conosco</a></li>
@@ -49,6 +47,16 @@
             </ul>
         </div>
     </header>
+    <div data-fade class="fade hide"></div>
+    <div data-modal class="modal hide">
+        <div class="modal__header">
+            <h2 class="modal__titulo">Carrinho de compras</h2>
+        </div>
+        <div class="modal__body">
+            <p class="modal__texto">aaaaaaaaaaaaaa</p>
+            <button data-close class="modal__botao">Fechar</button>
+        </div>
+    </div>
     <section class="swiper">
         <div class="swiper-wrapper">
         <div class="swiper-slide">
