@@ -1,3 +1,4 @@
+
 <h1>Love Photos Project</h1>
 <h3>On building - Em construção</h3>
 
@@ -18,7 +19,6 @@
 
 <h3>Some project images</h3>
 
-![tela-1](https://user-images.githubusercontent.com/110418142/202295419-dc7974df-4e96-45fd-8d17-670f6df5d029.png)
-
-![tela-2](https://user-images.githubusercontent.com/110418142/202295699-51951ec0-bb17-4f57-8f83-bf91dd15e6aa.png)
+![tela-1](https://user-images.githubusercontent.com/110418142/203625843-68c8c77e-5ea5-4e1d-804a-8869c44b82c8.png)
+![tela-2](https://user-images.githubusercontent.com/110418142/203625850-f0a45adc-7840-4f95-9d22-3aae3f027310.png)
 
