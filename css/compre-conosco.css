@@ -53,7 +53,7 @@
     padding: 2em 0;
     display: flex;
     align-items: center;
-    gap: 3em;
+    gap: 1.5em;
 }
 
 .compre-conosco__quantidade {
@@ -78,12 +78,18 @@
 
 .compre-conosco__adicionar {
     cursor: pointer;
-    padding: 1.3em 2em;
+    padding: 1em 2em;
     font-weight: 700;
     color: var(--branco);
     background-color: var(--azul);
     border: none;
     border-radius: 10px;
+    height: 50px;
+    width: 400px;
+}
+
+.comprar {
+    background-color: var(--verde);
 }
 
 .swiper-button-prev {
@@ -149,18 +155,17 @@
     margin-bottom: 5em;
 }
 
-input[type="number"] {
-    -moz-appearance: textfield;
+.compre-conosco__botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+
+input[type='number'] {
+    border-radius: 5px;
     text-align: center;
-    border: none;
 }
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
 
 @media screen and (max-width: 1024px) {
 
