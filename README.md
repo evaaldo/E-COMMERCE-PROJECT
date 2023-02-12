@@ -4,7 +4,7 @@
 
 <p><strong>✦ Summary:</strong> This project boils down to the creation of the local e-commerce site where I live. The purpose of the website is to show the products available in the store, their price, how the store services work and also helping the user to have a faster purchase.</p>
 
-<p><strong>✦ How to use:</strong> The site's code is divided into very intuitive folders. For example, all the CSS files for each of the website's sections are inside the css folder. Same goes for javascript and images. The website's HTML is the only file that is outside of a folder. The entire CSS file is linked to css/style.css.
+<p><strong>✦ How to use:</strong> The site'ss code is divided into very intuitive folders. For example, all the CSS files for each of the website's sections are inside the css folder. Same goes for javascript and images. The website's HTML is the only file that is outside of a folder. The entire CSS file is linked to css/style.css.
 </p>
 
 <p><strong>✦ How to acess:</strong> To access the site, just access the deploy link: https://e-commerce-project-opal.vercel.app/</p>
